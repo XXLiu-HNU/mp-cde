@@ -1,0 +1,24 @@
+.my_columns {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.my_column {
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.institution-logo {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 为第一张图片设置特殊样式，使其显示更大 */
+.my_column:first-child .institution-logo {
+    height: 180px;
+}
