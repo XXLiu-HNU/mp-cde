@@ -174,3 +174,15 @@ body {
   margin-top: 0.5em;
 }
 
+
+
+.media-full {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.media-full img,
+.media-full video {
+  width: 100%;
+  height: auto;
+}
